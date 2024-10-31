@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto-perfil{
+    height:400px ;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.col-md-6 .box-shadow img{
+    border: 5px solid #18bc9c;
+    width: 50px;
+}
+
+/**/
+
+#perfil{
+    background-color: #18bc9c;
+}
+
+#sobremim{
+    background-color: #18bc9c;
+    border-radius: 10px;
+}
+
+#disponivel{
+    background-color: #18bc9c;
+    border-radius: 10px;
+}
+
+#navbar-color{
+    background-color: #2c3e50;
+}
+
+
+#footer{
+    background-color: #2c3e50;
+    border-radius: 10px;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: black !important;
+}
+.icones{
+    padding-left: 10px;
+}
+
+.titulosBrancos{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.titulosVerdes{
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c;
+}
+
+.textoBranco{
+    color: white !important;
+}
+
+.jumbotrom{
+    margin-bottom: 0px;
+}
+
+.textofooter{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container i{
+    transition: all 0.3s ease;
+}
+
+.navbar-nav li a{
+    transition: all 0.3s ease;
+}
+
+.navbar-nav li a:hover{
+    background-color: #18bc9c;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.menu-mobile{
+    display: none;
+    text-align: right;
+    width: 50%;
+}
+
+.menu-mobile i{
+    cursor: pointer;
+    color: #fff;
+    font-size: 19px;
+}
+
+.menu-mobile ul{
+    background-color: #304a64;
+    opacity: 0;
+    transition: 1s;
+    width: 100%;
+    position: absolute; /* principal */
+    left: 0;
+    top: 55px;
+    text-align: center;
+}
+
+#contact{
+    color: #fff;
+    background-color: #2c3e50;
+}
+
+.show-menu{
+    opacity: 1 !important;
+}
+
+.menu-mobile ul li a{
+    color: #18bc9c;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 8px 0;
+}
+
+@media screen and ( max-width: 780px){
+    .menu-mobile{display: block;}
+ /*   .menu-mobile ul{display: none;}*/
+    #navbarSupportedContent{display: none;}
+}
+
+/* 
+
+/* form */
+
+/* .form-contato {
+    max-width: 500px;
+    margin: 0 auto;
+   
+  }
+
+.container{
+   /*  background-color: #1b1e21; 
+    padding: 20px;
+}
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #1b1e21;
+  }
+   
+ */
+
+
+ .container{
+    padding: 18px;
+ }
+
+ .form-contato {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cfd8dc; /* Alteração na cor da borda para azul bebê */
+    transition: border-color 0.3s; /* Transição suave na cor da borda */
+  }
+  
+  .form-control:focus {
+    border-color: #2196f3; /* Alteração na cor da borda ao focar */
+    outline: none; /* Remover contorno ao focar */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2196f3; /* Alteração na cor de fundo do botão */
+    color: #fff;
+    transition: background-color 0.3s; /* Transição suave na cor de fundo */
+  }
+  
+  .btn:hover {
+    background-color: #0d47a1; /* Alteração na cor de fundo do botão ao passar o mouse */
+  }
+
+
+  .whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .whatsapp-link img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+
